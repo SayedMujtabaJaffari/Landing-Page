@@ -1,27 +1,7 @@
 body {
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/00/CSIRO_ScienceImage_4350_CSIROs_Parkes_Radio_Telescope_with_moon_in_the_background.jpg);
-    background-size: cover;
-
-
+    background-color: aqua;
 }
 
 #header-img {
-    width: 250px;
-}
-
-.video {
-    display: flex;
-    justify-content: center;
-}
-
-.telescope {
-    display: flex;
-    justify-content: center;
-    width: auto;
-    height: 400px;
-    margin: 20px;
-}
-
-P {
-    color: yellow;
+    width: 10px;
 }
