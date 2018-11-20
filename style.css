@@ -1,7 +1,33 @@
 body {
-    background-color: aqua;
+    background-image: url(https://aleteiaen.files.wordpress.com/2017/05/web3-planet-earth-space-nasa-space-stars-sun-shutterstock_526255060-shutterstock.jpg?quality=100&strip=all);
+    background-size: cover;
 }
 
 #header-img {
     width: 10px;
+}
+.box1,.box2,
+.box3{
+display: grid;
+  grid-template-columns: 100px 100px ;
+
+}
+
+img{
+    dispaly: flex;
+    justify-contect: center;
+ border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 350px;
+
+
+}
+p,h4,ul{
+color: #FFFFFF;
+
+}
+.nav-link,label{
+color: green;
+
 }
