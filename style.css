@@ -1,93 +1,88 @@
-body {
-    background-image: url(https://aleteiaen.files.wordpress.com/2017/05/web3-planet-earth-space-nasa-space-stars-sun-shutterstock_526255060-shutterstock.jpg?quality=100&strip=all);
-    background-size: cover;
-    display: block;
-    margin: 8px;
-}
+ body {
+     background-image: url(https://aleteiaen.files.wordpress.com/2017/05/web3-planet-earth-space-nasa-space-stars-sun-shutterstock_526255060-shutterstock.jpg?quality=100&strip=all);
+     background-size: cover;
+     display: block;
+     margin: 0;
+ }
 
-#header-img {
-    width: 0;
-}
-
-.box1,
-.box2,
-.box3 {
-    display: flex;
-    flex-direction: column;
-    width: 350px;
-    background-color: transparent;
-    color: #fff;
-    font-size: 30px;
-    margin: 20px;
-}
-
-img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 30px;
-    height: 300px;
-}
+ .menu {
+     display: flex;
+     justify-content: center;
+     width: 100%;
+     background-color: black;
+     margin: 0;
+ }
 
 
-.container {
-    display: flex;
-    justify-content: center;
-}
+ .menu-item {
+     list-style: none;
+     background-color: black;
+     border: solid 1px;
+     color: white;
+     padding: 10px;
+     margin-left: 10px;
+ }
 
-/* p,
-ul {
-    color: #ffffff;
 
-} */
 
-.nav-link,
-label {
-    color: green;
+ .box1,
+ .box2,
+ .box3 {
+     display: flex;
+     flex-direction: column;
+     width: 350px;
+     background-color: yellowgreen;
+     color: #fff;
+     font-size: 30px;
+     margin: 20px;
+     padding: 10px;
 
-}
+ }
 
-.logo {
-    border-image-width: 2;
-    max-width: 90px;
-    max-height: 120px;
-    padding-left: 1;
-}
+ form {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     height: 200px;
+     margin-top: 50px;
+ }
 
-nav {
-    font-weight: 400;
 
-    max-width: 650px;
-    margin-top: 10px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 0 50px;
+ .sa {
+     border: 1px solid #ddd;
+     border-radius: 4px;
+     padding: 30px;
+     height: 300px;
+ }
 
-    li {
-        padding-bottom: 5px;
-    }
-}
 
-h4,
-p,
-ul {
-    color: black;
-}
+ .container {
+     display: flex;
+     justify-content: center;
+ }
 
-.g {
-    display: flex;
-    direction: inherit;
-}
 
-#header-img {
-    display: flex;
-    justify-content: space-around;
-    max-width: 23px;
-    max-height: 15px;
-}
 
-#video {
-    justify-content: center;
-}
+
+
+ .logo {
+
+     max-width: 90px;
+     max-height: 120px;
+
+ }
+
+
+
+
+
+ #header-img {
+     max-width: 23px;
+     max-height: 15px;
+ }
+
+ #video {
+     justify-content: center;
+ }
