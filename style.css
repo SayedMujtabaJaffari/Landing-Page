@@ -3,6 +3,8 @@
      background-size: cover;
      display: block;
      margin: 0;
+
+
  }
 
  .menu {
@@ -23,7 +25,12 @@
      margin-left: 10px;
  }
 
-
+ #header {
+     position: fixed;
+     top: 0;
+     width: 100%;
+     background-color: black;
+ }
 
  .box1,
  .box2,
@@ -86,3 +93,25 @@
  #video {
      justify-content: center;
  }
+
+ ion-icon {
+     font-size: 250%;
+     padding: 15px;
+     color: aliceblue;
+
+ }
+
+ .contact {
+
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     border: solid 1px;
+     background-color: aqua;
+ }
+
+ @media only screen and (max-width: 600px) {
+     .pp {
+         display: flex;
+         flex-direction: column;
+     }
